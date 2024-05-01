@@ -1,0 +1,11 @@
+ansible-playbook -i inventory playbooks/main.yaml
+
+# to install ansible on ubuntu my local machine :
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
+
+# execute the ansible playbook :
+
+ansible-playbook -i inventory playbook.yml
